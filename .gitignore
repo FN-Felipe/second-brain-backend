@@ -1,0 +1,18 @@
+# dependencies
+node_modules
+
+# env / secrets
+.env
+.env*.local
+.dev.vars
+
+# wrangler
+.wrangler/
+
+# typescript
+*.tsbuildinfo
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
